@@ -15,7 +15,7 @@ btn.addEventListener('click', () => {
     if (input.value != pasword) {
         alert('Wrong!');
     }else if (username == '') {
-        alert('Worng!');
+        alert('Wrong!');
     }else if (input.value == pasword) {
         form.style.display = 'none';
         p.style.display = 'block';
